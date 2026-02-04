@@ -1,5 +1,5 @@
 """
-text classification
+text classification using bert model
 """
 
 import torch 
@@ -24,3 +24,6 @@ class BertModel(nn.Module):
 
 if __name__ == "__main__":
     print("hello")
+    # model config
+
+    # bert embedding
