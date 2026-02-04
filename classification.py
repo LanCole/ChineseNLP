@@ -7,7 +7,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from typing import Optional, Tuple
 import math
-
+import numpy as np
+import argparse
 
 class BertModel(nn.Module):
     def __init__(self, config):
@@ -23,7 +24,18 @@ class BertModel(nn.Module):
 
 
 if __name__ == "__main__":
-    print("hello")
-    # model config
+    print("text classification using bert model")
+    np.random.seed(1)
+    torch.manual_seed(1)
 
-    # bert embedding
+    # dataset config
+    dataset = "THUCNews"
+    
+    # model config
+    model = BertModel()
+
+
+    # model training
+    
+
+    # model evaling
